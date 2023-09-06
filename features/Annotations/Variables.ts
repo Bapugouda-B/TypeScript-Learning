@@ -34,7 +34,7 @@ let person: { name: string; age: number } = {
   age: 25,
 };
 
-// Type annotation for a function parameter and return type
+// Type annotation for Variable
 const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
@@ -44,10 +44,6 @@ const logNumber: (i: number) => void = (i: number) => {
 // variable declaration and initialization
 const message = "Hello, Typescript!";
 
-// TypeScript infers parameter and return type based on the function implementation
-function add(a: number, b: number) {
-  return a + b;
-}
 
 // When to use Annotations
 // 1) Function that returns the "Any" type
